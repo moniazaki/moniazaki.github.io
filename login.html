@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Login & Registration Form</title>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+<body class="login">
+    <ul>
+        <li><a href="">  Login & Registration Form </a></li>
+    </ul>
+<div class="box">
+   <form action="/action_page.php"  method="post" >
+    <div >
+    <input type="button" value="log in " onclick="login()" class="btn" title="login">
+    <input type="button" value="Register" onclick="register() " class="btn" title="register"><br>
+    </div>
+    </form><br> 
+   
+    <form method="post" id="login"  class="form1">
+    username:<br>
+    <input type="text"   id ="username"placeholder ="user name" required><br>
+    password:<br>
+    <input type ="password"  id="psw" placeholder="enter password"  required><br> <span></span>
+    <input type="checkbox" id="choice1" name="1" value="remember">
+    <label for="choice1"> remember password</label><br>
+    <a href="forgot password">forgot password</a><br><br>
+    <input type="submit" value ="log in" class="btn"title="login"><br>
+    
+   </form>
+   <form method="post" id="register" class="form1"action="/action_page.php" >
+    username:<br>
+    <input type="text"   placeholder ="user name" required><br>
+    Email Id:<br>
+    <input type="text" id="email"  placeholder ="username@gmail.com"title="required username@gmail.com" required> <span></span>
+    password:<br>
+    <input type ="password" id ="psw1" placeholder="enter password" requierd  ><br><span></span>
+    comfirm password:<br>
+    <input type ="password"   id="comf"placeholder="enter password" required ><br>
+    <input type="radio" id="male" name="gender" value="male" >
+          <label for="male">male</label>
+          <input type="radio" id="female" name="gender" value="female"required>
+          <label for="female">female</label><br> <br>
+        country:
+        <select id="country" name="country"required >
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Egypt</option>
+          </select><br>
+
+          
+    <input type="checkbox" id="choice2" name="1" value="I agree to the terms and condtions" required>
+    <label for="choice2"> I agree to the terms and condtions</label><br>
+    <input type="submit" value="Register" class="btn"title="register"onclick="sub"><br>
+         
+        
+ </form>
+ 
+</div> 
+
+<iframe src="images/9.htm"  width="1000" height="230"  > </iframe><br>
+<script>
+    var x = document.getElementById ("login");
+    var y = document.getElementById ("register");
+    var z = document.getElementById ("but");
+    
+    function register(){   
+    x.style.left="50px";
+    y.style.right="617px";
+    
+    }
+    function login(){   
+    x.style.left="617px";
+    y.style.right="50px";}
+
+    </script>
+
+<script>
+    var psw = document.getElementById('psw');
+     var span = document.getElementsByTagName('span');
+     
+
+psw.onkeydown= function(){
+const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
+const regexo = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,3}\. [a-zA-Z]{1,3}$/;
+if (regex.test(psw.value) || regexo.test(psw.value))
+
+{
+span[0].innerText = "Your password is valid";
+span[0].style.color = 'blue';
+}
+else
+{
+
+span[0].innerText="Your password is not Invalid";
+span[0].style.color = '#99004d';
+}
+}
+
+
+</script>
+
+<script>
+    var email = document.getElementById('email');
+     var span = document.getElementsByTagName('span');
+     
+
+email.onkeydown= function(){
+    const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
+const  regexo = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,3}\. [a-zA-Z]{1,3}$/;
+if (regex.test(email.value) || regexo.test(email.value))
+
+{
+span[1].innerText = "Your password is valid";
+span[1].style.color = "#3366ff";
+}
+else
+{
+
+span[1].innerText="Your password is not Invalid";
+span[1].style.color = '#99004d';
+}}
+
+
+</script>
+
+<script>
+    var psw1 = document.getElementById('psw1');
+     var span = document.getElementsByTagName('span');
+     
+
+psw1.onkeydown= function(){
+    const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
+const regexo =/^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,3}\. [a-zA-Z]{1,3}$/ ;
+if (regex.test(psw1.value) || regexo.test(psw1.value))
+
+{
+span[2].innerText = "Your password is valid";
+span[2].style.color = 'blue';
+}
+else
+
+
+span[2].innerText="Your password is not Invalid";
+span[2].style.color = '#99004d';
+}
+
+
+</script>
+
+</body>
+
+</html>

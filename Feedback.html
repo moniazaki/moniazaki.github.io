@@ -1,0 +1,78 @@
+<!DOCTYPE html5>
+<html lang="en">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Feedback</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="styles">
+
+<div class="box">
+  <h1 style="color:white;background-color:black">Feedback</h1>
+
+<form  id="form" action="thanks.html" method="post"> 
+
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username" placeholder="Enter your username" required><br>
+<br>
+<label for="password">Subject:</label><br>
+<input type="text" id="subject" name="subject" placeholder="Enter subject" required><br><br>
+<label for="comments">Comments:</label><br>
+<input type="text" id="comments" name="comments" style="height:150px;width:350px" placeholder="add your comment" required><br><br> 
+<input type="submit" value="Submit" div class="submit"></div>
+</div>
+<div class="Ratebutton">
+<p>Rate us :)</p>
+<form name="myform" onsubmit="return checkBoxLimit()" action="thanks.html" required>
+<input type="checkbox" id="Verysatisfied" name="Rating" value="Rating">
+<label for="Rating" quantity="1"> Very Satisfied</label>
+<input type="checkbox" id="satisfied" name="Rating" value="Rating">
+<label for="Rating" quantity="1">Satisfied</label>
+<input type="checkbox" id="neutral" name="Rating" value="Rating">
+<label for="Rating" quantity="1">Neutral</label>
+<input type="checkbox" id="unsatisfied" name="Rating" value="Rating">
+<label for="Rating">Unsatisfied</label>
+<input type="checkbox" id="veryunsatisfied" name="Rating" value="Rating">
+<label for="Rating" quantity="1"> Very Unsatisfied</label>
+<input type="submit" value="Submit" div class="submit"></div>
+
+
+</div>
+<div>
+  <span id="not valid"></span>
+</div>
+<br>
+<script type="text/javascript">
+  function checkBoxLimit(){
+  var checkboxgroup= document.forms['form_name']['check[]'];	
+  var limit=1;
+  for (var i = 0; i < checkBoxGroup.length; i++) {
+		checkBoxGroup[i].onclick = function() {
+			var checkedcount = 0;
+			for (var i = 0; i < checkBoxGroup.length; i++) {
+				checkedcount += (checkBoxGroup[i].checked) ? 1 : 0;
+			}
+			if (checkedcount > limit) {
+				console.log("You can select maximum of " + limit + " checkboxes.");
+				alert("You can select maximum of "+ limit +  " checkboxes.");						
+				this.checked = false;
+      }
+		}
+	}
+}
+</script>
+</form>
+
+<br><br>
+<div id="contentframe" style="position:relative; top: 5px; left: 60px;">
+<iframe src="images/THANKYOU-PAGE-2.png" style="border:2px solid black; height:300px;width:750px" title="Iframe">
+</div>
+</iframe> 
+
+</body>
+</html>
+
+
+
