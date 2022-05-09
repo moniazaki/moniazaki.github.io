@@ -326,7 +326,7 @@ login  {
    
     position: relatives;
 }
-.login b1{
+.login .b1{
       text-align: center ;
       position: relative;
       margin-top:3px ;
