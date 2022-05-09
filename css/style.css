@@ -427,9 +427,9 @@ h3{
     
 }
 .women .add :hover{
-     border-radius:10px;
     background:#000000;
     color:#ffffff;
+    border-radius:30px;
 }
 .women .coloumn {
     float: left;
