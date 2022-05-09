@@ -308,12 +308,16 @@ h3{
     width: 20px;
 }
 
+
   .login .body  {
         background:linear-gradient(to top,#c2c2d6,#000000);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
              
       }
+.body .login{
+}
+
 
 .login .box {
     background-color:white;
@@ -324,7 +328,7 @@ h3{
     margin: 6% auto;
     border-radius:30px;
    
-    position: relatives;
+    position: relative;
 }
 .login .b1{
       text-align: center ;
