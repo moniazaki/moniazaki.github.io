@@ -607,60 +607,6 @@ text-align: center;
     left:-130px;
     top:-700px;
 }
-.home .dropbtn {
-  background-color: #000000;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
 
-.home .dropbtn:hover, .dropbtn:focus {
-  background-color:rgb(146,146,145);
-}
-
-.home #myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 14px 20px 12px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-.home #myInput:focus {outline: 3px solid #ddd;}
-
-.home .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.home .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
-}
-
-.home .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.home .dropdown a:hover {
-    background-color: #ddd;
-}
-
-.home .show {
-    display: block;
-}
 
 
