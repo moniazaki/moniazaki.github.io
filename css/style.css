@@ -525,58 +525,7 @@ text-align: center;
     margin-top: 10px;
   
 }
-.styles header{
-    color:rgba(247, 0, 255, 0);
-    background-color: rgb(199, 199, 232);
-    font-size: 20px;
-    block-size: 5%;
-    }
-.styles{
-    background-color:rgba(0, 0, 0, 0);
-    
-}
-.styles .box{
-    background-color: rgb(199, 199, 232);
-    width:1010px;
-    height:600px;
-    border:10px;
-    padding:50px;
-    margin:5% auto;
-    border-radius:100px;
-}
-.styles .Iframe{
-    position:relative;
-    top:10px;
-    left:2px;
-    border:2px solid;
-    height:300px;
-    width:750px;
-    border-radius:100px;
-    padding:50px;
-}
-.styles .submit{
-    padding:2px;
-    background-color: lightgrey;
-    font-size:15px;
-    border-radius:5px;
-}
-.styles select{
-    padding: 5px 20px;
-     border-radius: 4px;
-    text-align: center;
-}
-    .styles input[type=text],[type=password] {
-    padding: 7px 40px;
-    margin: 9px 0;
-    box-sizing: border-box;
-    border-radius: 10px;
-    text-align: center;
-}
-.Ratebutton{
-    position:relative;
-    left:100px;
-    margin-top: -165px;
-}
+
 .styles .image{
     position:relative;
     height:100px;
@@ -607,6 +556,77 @@ text-align: center;
     left:-130px;
     top:-700px;
 }
+.feedback{
+    background:linear-gradient(to left,#000000,#ffffff);
+    line-height:1.2;
+    width:800px;
+    margin:auto;
+}
+#description{
+    font-style:italic;
+    font-size:medium;
+}
+#survey-form {
+    background:#ffffff;
+    padding:2.5rem;
+    border-radius:2rem;
+    width:700px;
+    height:700px;
+    margin:auto;
+}
+.submit-button{
+    width:100%;
+    padding:0.75rem;
+    background:rgb(146,146,145);
+    color:#ffffff;
+    border-radius:2px;
+    cursor:pointer;
+}
+.input-headings{
+    margin:0 auto 1.25rem auto ;
+    padding:0.25rem;
+}
+#name{
+   display:block;
+   width:90%;
+   height:2.5rem;
+   padding:0.25rem 0.75rem;
+   background:#fff;
+   border:1px solid #cod4da;
+   background-raduis:0.25rem ;
+}
+#Email{
+   display:block;
+   width:90%;
+   height:2.5rem;
+   padding:0.25rem 0.75rem;
+   background:#fff;
+   border:1px solid #cod4da;
+   background-raduis:0.25rem;
+}
+#number{
+   display:block;
+   width:90%;
+   height:2.5rem;
+   padding:0.25rem 0.75rem;
+   background:#fff;
+   border:1px solid #cod4da;
+   background-raduis:0.25rem;
+}
+#dropdown{
+   display:block;
+   width:90%;
+   height:2.5rem;
+   padding:0.25rem 0.75rem;
+   background:#fff;
+   border:1px solid #cod4da;
+   background-raduis:0.25rem;
+}
+.submit-button:hover{
+    color:#ffffff;
+}
+
+
 
 
 
