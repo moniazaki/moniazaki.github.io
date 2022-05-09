@@ -420,6 +420,13 @@ h3{
     text-align: center;
     box-sizing: border-box;
 }
+.women add{
+    border-radius:20px;
+}
+.women add :hover{
+    background:#000000;
+    color:#ffffff;
+}
 .women .coloumn {
     float: left;
     width: 33.33%;
