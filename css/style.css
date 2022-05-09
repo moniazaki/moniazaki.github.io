@@ -316,11 +316,8 @@ h3{
      background:linear-gradient(to top,#c2c2d6,#000000);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- body .login {
-       
-     
-    
-        position: absolute;
+ body login {
+             position: absolute;
         background-position: center;
       }
 
