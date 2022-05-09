@@ -625,6 +625,27 @@ text-align: center;
 .submit-button :hover{
     background-color:#000000;
 }
+.direction a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 20px;
+}
+  
+.direction a:hover {
+    background-color:rgb(110, 110, 108);
+    color: #ffffff;
+}
+  
+.direction .previous {
+    background-color: #060606;
+    color: rgb(247, 244, 244);
+}
+  
+.direction .next {
+    background-color: #060606;
+    color: white;
+    float:right;
+  }
 
 
 
