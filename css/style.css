@@ -308,7 +308,7 @@ h3{
     width: 20px;
 }
 
-login {
+login body {
      position: absolute;
     background-position: center;}
 .login {
