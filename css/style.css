@@ -420,12 +420,12 @@ h3{
     text-align: center;
     box-sizing: border-box;
 }
-.women add{
+.women .add{
     border-radius:30px;
     
     
 }
-.women add :hover{
+.women .add :hover{
     background:#000000;
     color:#ffffff;
 }
