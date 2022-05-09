@@ -357,15 +357,7 @@ login{ background:linear-gradient(to top,#c2c2d6,#000000);
 .login iframe{    
      border-radius: 2px;
 }
-.login .box {
-    background-color:white;
-    width: 300px;
-    height: 750px;
-    border: 15px ;
-    padding: 80px;
-    margin: 9% auto;
-    border-radius:30px;
-}
+
 .login .btn {
     border-radius:40px;
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #b22f71;
