@@ -324,6 +324,11 @@ login{ background:linear-gradient(to top,#c2c2d6,#000000);
    
     position: relatives;
 }
+.login b1{
+      text-align: center ;
+      position: relative;
+      margin-top:3px ;
+    }
 .login .btn {
     border-radius:40px;
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #99004d;
@@ -393,10 +398,10 @@ login{ background:linear-gradient(to top,#c2c2d6,#000000);
   transition: .5s;
 }
 .login #login{
-     right:617px;
+     left:617px;
 }
 .login #register{
-    right:50px;
+    left:50px;
 }
 .login iframe{    
 border-radius: 2px;
