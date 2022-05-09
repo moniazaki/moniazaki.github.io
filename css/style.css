@@ -310,7 +310,8 @@ h3{
 
 login {
      position: absolute;
-        background-position: center;
+    background-position: center;}
+.login {
      background:linear-gradient(to top,#c2c2d6,#000000);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -319,7 +320,7 @@ login {
     width: 400px;
     height :500px;
     border: 15px ;
-    padding: 80px;
+    padding: 5px;
     margin: 6% auto;
     border-radius:30px;
    
@@ -334,11 +335,11 @@ login {
     border-radius:40px;
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #99004d;
     padding: 5px 15px;
+    position: relative ;
 }
 .login .btn:hover{
     background-color:rgb(110,110,108) ;
-    transform:scale(1) ;
-    position : relative;
+     transform:scale(1) ;
     padding: 10px 20px;
     border-radius:30px;
 }
@@ -349,7 +350,8 @@ login {
     text-align: center;
 }
 .login .form1{
-    top: 250px;
+     transition: .5s;
+    display: block;
     position: absolute;
     width: 280px;
     
@@ -369,28 +371,15 @@ login {
   {
     color: #99004d;
 }
-.login input[type=text],[type=password]{   
-      padding: 7px 40px;
-      margin: 9px 0;
-      box-sizing: border-box;
-      border-radius: 5px;
-      text-align: center;
-      color: #99004d;
-}
-.login .form1{top: 360px;
-  position:absolute;
-  width: 280px;
-  transition: .5s;
-}
+
+
 .login #login{
      left:617px;
 }
 .login #register{
     left:50px;
 }
-.login iframe{    
-border-radius: 2px;
-}
+
 .login span {
      display: block;
     font-style: italic;
