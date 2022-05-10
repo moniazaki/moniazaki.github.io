@@ -122,13 +122,13 @@ h1{
 }
 
 .rows {
-    display: flex;
+    
     margin-left:-5px;
     margin-right:-5px;
 }
   
 .columns {
-    flex: 50%;
+    width: 33.33%;
     padding: 15px;
 }
 .home iframe{
