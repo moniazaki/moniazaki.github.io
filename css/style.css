@@ -735,6 +735,13 @@ margin-top:350px;
      color: rgb(146, 146, 145);
      transition: 0.3s ease-out;
 }
+.home ul.b {
+    list-style-position: inside;
+    list-style-type:disc;
+    margin: 10px;
+    padding: 10px;
+
+}
 
 
 
