@@ -555,7 +555,7 @@ text-align: center;
 .vid{
     position:relative;
     left:190px;
-    top:-400px;
+    top:-50px;
 }
 .styles .lin{
     position:relative;
@@ -565,8 +565,45 @@ text-align: center;
 .kidstable{
     position:relative;
     left:-130px;
-    top:-700px;
+    top:-300px;
 }
+.slides{
+position:realtive;
+top:-1500px;
+margin-top:-400px;
+margin-left:150px;
+}
+.bluedress{
+position:realtive;
+left:10px;
+margin-left:190px;
+margin-top:-350px;
+}
+.whitepattern{
+position:relative;
+margin-top:-490px;
+margin-left:640px
+}
+.twopics{
+margin-left:-200px;
+}
+.pinkdress{
+position:relative;
+margin-left:-450px;
+}
+.hatefulbuttons{
+position:relative;
+margin-left:195px;
+}
+.bbuttons{
+position:relative;
+margin-left:500px;
+margin-top:350px;
+}
+.checked {
+    color: orange;
+  }
+
 .feedback{
     background:linear-gradient(to left,#000000,#ffffff);
     line-height:1.2;
